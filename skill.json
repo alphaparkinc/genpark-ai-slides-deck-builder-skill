@@ -1,0 +1,27 @@
+{
+  "name": "genpark-ai-slides-deck-builder-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - AI-powered presentation deck outline and slide structure builder.",
+  "author": "genpark",
+  "category": "productivity",
+  "tags": [
+    "slides",
+    "presentation",
+    "outline"
+  ],
+  "inputs": {
+    "topic": {
+      "type": "string"
+    },
+    "slide_count": {
+      "type": "integer"
+    }
+  },
+  "outputs": {
+    "slides_outline": {
+      "type": "array"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
